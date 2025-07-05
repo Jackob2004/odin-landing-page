@@ -80,3 +80,31 @@ ul {
   gap: 20px;
 }
 
+.middle-up {
+  text-align: center;
+}
+
+.image-container div {
+  height: 160px;
+  width: 160px;
+  border: solid 5px #3882F6;
+  border-radius: 20px;
+  margin-bottom: 10px;
+}
+
+.image-container {
+  max-width: 170px;
+}
+
+.illustrations {
+  display: flex;
+  justify-content: center;
+  gap: 60px;
+}
+
+.info-header {
+  padding: 40px;
+  font-size: 36px;
+  color: #1F2937;
+  font-weight: bold;
+}
