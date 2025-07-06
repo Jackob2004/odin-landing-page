@@ -6,6 +6,7 @@
   padding: 0;
 }
 
+.footer,
 .header {
   background-color: #1F2937;
 }
@@ -163,4 +164,14 @@ ul {
 
 .call button {
   border: solid 3px;
+}
+
+.footer {
+  display: flex;
+  color: white;
+  padding: 50px;  
+}
+
+.footer div {
+  margin: auto;
 }
