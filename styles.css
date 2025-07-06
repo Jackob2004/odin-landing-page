@@ -45,6 +45,9 @@
 
 .header-bottom {
   display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: center;
   gap: 40px;
   padding: 100px 0;
 }
@@ -102,6 +105,7 @@ ul {
 
 .illustrations {
   display: flex;
+  flex-wrap: wrap;
   justify-content: center;
   gap: 60px;
 }
@@ -143,7 +147,9 @@ ul {
 
 .call {
   display: flex;
+  flex-wrap: wrap;
   justify-content: space-around;
+  gap: 10px;
   background-color: #3882F6;
   max-width: 900px;
   margin: auto;
