@@ -52,14 +52,17 @@
   flex: 1;
 }
 
-.header-bottom-left button {
+button {
   padding: 8px 32px;
-  margin-top: 15px;
   background-color: #3882F6;
   color: white;
   font-weight: bold;
   font-size: 18px;
   border-radius: 10px;
+}
+
+.header-bottom-left button {
+  margin-top: 15px;
   border: none;
 }
 
@@ -131,4 +134,33 @@ ul {
 
 .quote-container div {
   align-self: flex-end;
+}
+
+.bottom {
+  padding: 100px;
+}
+
+.call {
+  display: flex;
+  justify-content: space-around;
+  background-color: #3882F6;
+  max-width: 900px;
+  margin: auto;
+  padding: 50px;
+  border-radius: 10px;
+}
+
+.call-left div {
+  color: white;
+  font-weight: bold;
+  font-size: 22px;
+}
+
+.call-left p {
+  color: white;
+  font-size: smaller;
+}
+
+.call button {
+  border: solid 3px;
 }
