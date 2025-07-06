@@ -49,7 +49,7 @@
   align-items: center;
   justify-content: center;
   gap: 40px;
-  padding: 100px 0;
+  padding: 120px 40px;
 }
 
 .header-bottom-left {
@@ -91,7 +91,7 @@ ul {
   text-align: center;
 }
 
-.image-container div {
+.image-container img {
   height: 160px;
   width: 160px;
   border: solid 5px #3882F6;
@@ -126,7 +126,7 @@ ul {
   display: flex;
   flex-direction: column;
   gap: 10px;
-  padding: 100px;
+  padding: 130px;
   max-width: 700px;
   margin: auto;
 }
